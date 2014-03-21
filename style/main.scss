@@ -343,6 +343,17 @@ hr {
                    false true, // 512
                    false true, // 1024
                    false true; // 2048
+  $special-colors: false false, // P
+                   false false, // FM
+                   #f78e48 true, // MLC
+                   #fc5e2e true, // MFE
+                   #ff3333 true, // C
+                   #ff0000 true, // 5
+                   false true, // 6
+                   false true, // 7
+                   false true, // 8
+                   false true, // 9
+                   false true; // FCAS
 
   // Build tile colors
   @while $exponent <= $limit {
